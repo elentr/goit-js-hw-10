@@ -21,10 +21,12 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 button {
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 img {
