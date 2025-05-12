@@ -31,3 +31,26 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.back-btn {
+  margin: 16px auto;
+  margin-left: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  max-width: 95px;
+  max-height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    background: #6c8cff;
+  }
+}
